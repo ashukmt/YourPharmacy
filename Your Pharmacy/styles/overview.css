@@ -1,0 +1,955 @@
+#MAIN_DIV{
+    display: grid;
+    grid-template-columns: 60% 25%;
+    width: 90%;
+    margin: auto;
+    margin-top: 90px;
+}
+
+#payment_DIV{
+    /* border: 2px solid black; */
+    width: 100%;
+    margin-left: 95px;
+    padding: 11px 47px 74px 30px;
+    height: fit-content;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: #f2f2f2;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#tp_div{
+  display: flex;
+  justify-content: space-between;
+}
+
+#payment_DIV > div{
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+#payment_DIV > button{
+  border: none;
+  background-color: #4CAF50;
+  border-radius: 6px;
+  margin-left: 130px;
+  padding: 13px 58px 13px 53px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+#payment_DIV > button:hover{
+  background-color: #72e475;
+}
+
+#tp_div2 > h3{
+  margin-top: 16px;
+  margin-left: -30px;
+}
+
+#payment_DIV  p{
+  font-size: 30px;
+}
+
+#tp_div2 > h3{
+  margin-top: 16px;
+  margin-left: -30px;
+}
+
+#payment_DIV > button{
+    border: none;
+    background-color: #4CAF50;
+    border-radius: 6px;
+    margin-left: 130px;
+    padding: 13px 58px 13px 53px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  
+  #payment_DIV > button:hover{
+    background-color: #72e475;
+  }
+
+
+  #left-DIV{
+    background-color:#f2f2f2;
+    margin-top: 16px;
+  }
+
+  #left-DIV > div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 12px 7px 9px 9px;
+    margin: 23px 12px 19px 12px;
+    border-radius: 11px 1px 12px 2px;
+  }
+
+  #PRODUCT_DIV > div{
+    border-bottom: 1px solid lightslategray;
+    margin-bottom: 13px;
+  }
+
+  #PRODUCT_DIV p{
+    font-size: 21px;
+    font-weight: bold;
+  }
+
+  #ADDR_DIV p {
+    font-weight: bold;
+  }
+
+  #ADDR_DIV h3 {
+    font-weight:bolder;
+  }
+
+  /* .given_img{
+    /* width: 200px; */
+
+  /* }  */
+
+  .given_img img{
+    width: 200px;
+  }
+
+
+  /* ---------------Navbar  and Footer  Style---------------- */
+  
+/* navbar start */
+#navbar1 {
+    /* width: 100%; */
+    display: flex;
+    gap: 50px;
+
+}
+/* #count{
+    background-color: black;
+} */
+nav {
+    /* width: 100%; */
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    /* gap: 230px; */
+    align-items: center;
+    padding: 0px 15px 0px 15px;
+    /* border: 2px solid red; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#navbar1>div>a>img {
+    width: 80px;
+    height: 60px;
+}
+
+#nav1e {
+    /* width: 100%; */
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+#nav1e>a {
+    text-decoration: none;
+    color: rgb(0, 81, 92);
+}
+
+#nav1e>a:hover {
+    color: rgb(240, 134, 53);
+}
+
+#menubar {
+    display: none;
+}
+
+#consultDiv {
+    width: 23%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding-right: 15px;
+
+}
+
+#consultDiv p {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    font-weight: bold;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    padding-right: 25px;
+    background-color: white;
+    z-index: 2;
+}
+
+#consultDiv>a {
+    text-decoration: none;
+    color: rgb(0, 81, 92);
+    font-size: bold;
+}
+
+#consultDiv>a:hover {
+    color: rgb(240, 134, 53);
+}
+
+#Search {
+    width: 12rem;
+    height: 18px;
+    padding: 5px;
+    display: none;
+}
+
+#Search:focus {
+    outline: none;
+    display: none;
+}
+
+/* #Search:hover{
+    background-color: crimson;
+} */
+
+#navbar1>div span {
+    display: flex;
+}
+
+#navbar1>div span button {
+    margin-left: -5px;
+    padding: 3.3px;
+    border-radius: 0 7px 7px 0;
+    background-color: rgb(0, 81, 92);
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(0, 81, 92);
+    width: 38px;
+    font-size: 18px;
+    display: none;
+}
+
+#navbar1>div span input {
+    border-radius: 7px 0px 0px 7px;
+    border: 1px solid rgb(0, 81, 92);
+}
+
+#navbar1>div span button:hover {
+    background-color: rgb(240, 134, 53);
+    border: 1px solid rgb(240, 134, 53);
+    color: black;
+}
+
+#Consult {
+    width: 150px;
+    height: 40px;
+    /* border-radius: 8px; */
+    padding: 10px;
+    border: none;
+    background-color: rgb(0, 81, 92);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    /* font-weight: bold; */
+}
+
+#Consult:hover {
+    background-color: rgb(240, 134, 53);
+    color: black;
+}
+
+#menunavbar {
+    display: none;
+}
+
+/* navbar close  */
+
+
+
+
+
+
+
+
+/* ..--------------->Footer--------------------> */
+
+
+#footImg>img{
+    width: 100%;
+    margin-bottom: -10px;
+    cursor: pointer;
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: black;
+}
+#footme{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    color: white;
+}
+#foot{
+    width: 80%;
+    /* border: 1px solid red; */
+    
+    display: flex;
+    justify-content:space-evenly;
+    margin: auto;
+    color: white;
+    /* gap: 50px; */
+    /* text-align: center; */
+    padding: 20px;
+
+}
+#foot h2{
+    font-weight: 200;
+    cursor: pointer;
+}
+#foot h3{
+    font-weight: 200;
+    cursor: pointer;
+}
+#foot p{
+    margin-top: -13px;
+    cursor: pointer;
+}
+#footme>div+div img{
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+}
+#footer hr{
+    width: 100%;
+    color: rgb(49,48,48);
+    background-color: rgb(49,48,48);
+}
+#foot h2:hover{
+    color: rgb(240, 134, 53);
+}
+#foot h3:hover{
+    color: rgb(240, 134, 53);
+}
+#foot p:hover{
+    color: rgb(240, 134, 53);
+}
+/* #hr{
+    background-color: white;
+} */
+#footme p{
+    cursor: pointer;
+}
+
+
+
+/* our footer and navbar media queries */
+
+@media screen and (min-width:767px) and (max-width:1024px) {
+
+    /* navbar start */
+    nav {
+        width: 100%;
+        position: fixed;
+    }
+
+    #nav1e {
+        width: 100%;
+        display: none;
+    }
+
+    #consultDiv {
+        display: none;
+    }
+
+    #menubar {
+        display: block;
+        /* border: 1px solid green; */
+        /* margin-right: 20px; */
+        margin-right: 25px;
+    }
+
+    #menubar p {
+        font-size: 30px;
+       
+    }
+
+    /* nav{
+        border:  4px solid yellow;
+    } */
+    section {
+        position: relative;
+    }
+
+    #menunavbar {
+        width: 100%;
+        display: none;
+        position: fixed;
+        /* right: 0; */
+        top: 6%;
+        height: 100vh;
+
+        background-color: white;
+    }
+
+    #menunavbar>div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #menunavbar>div>a {
+        text-decoration: none;
+        color: rgb(0, 81, 92);
+        font-size: bold;
+    }
+
+    #menunavbar>div button {
+        width: 12rem;
+        padding: 10px;
+        border-radius: 8px;
+        color: white;
+        font-weight: bold;
+        border: 1px solid rgb(0, 81, 92);
+        background-color: rgb(0, 81, 92);
+        text-align: center;
+        margin: auto;
+    }
+
+    #menunavbar>div a p {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #close {
+        font-size: 30px;
+        float: right;
+        /* margin-top: -10px; */
+    }
+
+    /* navbar end */
+
+
+
+
+
+
+    #template {
+        width: 100%;
+        /* position: absolute; */
+        height: 50vh;
+        margin: auto;
+        background-image: url("https://daryo.uz/static/pills.webp");
+        /* background-size: cover; */
+        background-repeat: no-repeat;
+        margin-top: 8%;
+
+
+    }
+
+    .overlay-text {
+        width: 30%;
+        font-size: 25px;
+
+        padding: 20px;
+        margin-left: 80px;
+        /* margin-top: 80px; */
+    }
+
+    #smallpara {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    #moreabout {
+        width: fit-content;
+        height: 40px;
+        overflow-wrap: break-word;
+        padding: 10px;
+        /* color: rgb(0, 81, 92); */
+        border-color: 1px solid rgb(7, 60, 67);
+    }
+
+    .Content {
+        text-align: center;
+        /* margin-top: 50px; */
+    }
+
+    .best {
+        font-size: 30px;
+        color: rgb(0, 81, 92);
+    }
+
+    .Content>h1 {
+        font-size: 40px;
+        /* margin-top: -20px; */
+    }
+
+    .Content>h1+p {
+        /* width: 50%; */
+        font-size: 25px;
+        margin: auto;
+        /* margin-top: -20px; */
+
+    }
+
+    #feature {
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto
+    }
+
+    #doctorImg {
+        width: 100%;
+        height: 80vh;
+        background-image: url("https://cdn-anbmj.nitrocdn.com/AUXIVIQtsIdjcKgcKxCkSmSPjQBhKiDP/assets/images/optimized/rev-1e23c70/wp-content/uploads/2021/07/Home-Pajes-Website-Banner-Artwork-3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    #Product {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+
+    }
+
+    #Product>div {
+        width: 80%;
+        margin: auto;
+    }
+
+    #brand {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    #brand>div {
+        width: 50%;
+        margin: auto;
+    }
+
+    #expert {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pert>div {
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pert>div>div>select {
+        width: 250px;
+        height: 40px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    #name {
+        width: 170px;
+        padding: 10px;
+        height: 18px;
+        /* border: none; */
+        border-radius: 10px;
+    }
+
+    #email {
+        width: 170px;
+        padding: 10px;
+        height: 18px;
+
+    }
+
+    #phone {
+        width: 170px;
+        height: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    #date {
+        width: 170px;
+        height: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    #time {
+        width: 170px;
+        height: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+    }
+    #footme{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+    #foot{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:766px) {
+
+    /* .....navbar start */
+    nav {
+        width: 100%;
+        position: fixed;
+    }
+
+    #nav1e {
+        display: none;
+    }
+
+    #consultDiv {
+        display: none;
+    }
+
+    #menubar {
+        display: block;
+        margin-right: 20px;
+    }
+
+    #menubar p {
+        font-size: 30px;
+        /* float: right; */
+    }
+    section {
+        position: relative;
+    }
+
+    #menunavbar {
+        width: 100%;
+        display: none;
+        position: fixed;
+        right: 0;
+        top: 8%;
+        height: 100vh;
+        background-color: white;
+    }
+
+    #menunavbar>div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #menunavbar>div>a {
+        text-decoration: none;
+        color: rgb(0, 81, 92);
+        font-size: bold;
+    }
+
+    #menunavbar>div button {
+        width: 12rem;
+        padding: 10px;
+        border-radius: 8px;
+        color: white;
+        font-weight: bold;
+        border: 1px solid rgb(0, 81, 92);
+        background-color: rgb(0, 81, 92);
+        text-align: center;
+        margin: auto;
+    }
+
+    #menunavbar>div a p {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #close {
+        font-size: 30px;
+        float: right;
+    }
+
+    /* navbar end */
+
+
+
+
+
+
+
+    #template {
+        width: 100%;
+        height: 40vh;
+        margin: auto;
+        margin-top: 20%;
+        background-image: url("https://daryo.uz/static/pills.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+    }
+
+    .overlay-text {
+        width: 35%;
+        font-size: 20px;
+
+        padding: 20px;
+        margin-left: 20px;
+        /* margin-top: 80px; */
+    }
+
+    #smallpara {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    #moreabout {
+        height: 35px;
+        font-size: 10px;
+    }
+
+    .Content {
+        text-align: center;
+    }
+
+    .best {
+        font-size: 20px;
+        color: rgb(0, 81, 92);
+    }
+
+    .Content>h1 {
+        font-size: 25px;
+    }
+
+    .Content>h1+p {
+        font-size: 15px;
+        margin: auto;
+
+    }
+
+    #feature {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    #doctorImg {
+        width: 100%;
+        height: 50vh;
+        background-image: url("https://cdn-anbmj.nitrocdn.com/AUXIVIQtsIdjcKgcKxCkSmSPjQBhKiDP/assets/images/optimized/rev-1e23c70/wp-content/uploads/2021/07/Home-Pajes-Website-Banner-Artwork-3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #doctorImg>h1 {
+        width: 50%;
+        color: white;
+        font-size: 20px;
+    }
+
+    #doctorImg>button {
+        width: 10rem;
+        background-color: crimson;
+        border: 2px solid white;
+        padding: 10px;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+
+
+    }
+
+
+
+    #Product {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #Product>div {
+        width: 70%;
+        margin: auto;
+    }
+
+    #brand {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    #brand>div {
+        width: 50%;
+        margin: auto;
+    }
+
+    main {
+        /* width: 800px; */
+        width: 60%;
+    }
+
+    main h1 {
+        text-align: center;
+        font-size: 30px;
+        color: #fff;
+        margin-bottom: 2rem;
+    }
+
+    .slide-row {
+        display: flex;
+        transition: 0.5s;
+    }
+
+    .slide-col {
+        width: 400px;
+        height: 400px;
+
+    }
+
+    .user-img {
+        display: none;
+    }
+
+    .user-img img {
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    .user-text {
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(4.5px);
+        -webkit-backdrop-filter: blur(4.5px);
+        width: 100px;
+        height: 800px;
+        transform: translateY(-50%);
+        border-radius: 10px;
+        color: #4d4352;
+
+    }
+
+    .user-text p {
+        font-size: 12px;
+    }
+
+    .user-text h2 {
+        margin: 35px 0 5px;
+        color: #4d4352;
+        font-size: 15px;
+    }
+
+    .indicator {
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+
+    .indicator .btn {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        margin: 4px;
+        border-radius: 15px;
+        background: #fff;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .btn.active {
+        width: 45px;
+    }
+
+    .testimonial {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #expert {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pert>div {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pert>div>div>select {
+        width: 150px;
+        height: 40px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    #name {
+        width: 120px;
+        padding: 10px;
+        height: 18px;
+        /* border: none; */
+        border-radius: 10px;
+    }
+
+    #email {
+        width: 120px;
+        padding: 10px;
+        height: 18px;
+
+    }
+
+    #phone {
+        width: 120px;
+        height: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    #date {
+        width: 120px;
+        height: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    #time {
+        width: 120px;
+        height: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+    }
+    #footme{
+        display: flex;
+        flex-direction: column;
+    }
+    #foot{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
