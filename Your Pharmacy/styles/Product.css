@@ -84,7 +84,7 @@
 }
 
 /* <-------------- */
-@media only screen and (max-width: 950px) {
+/* @media only screen and (max-width: 950px) {
     #Right_side {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -93,9 +93,12 @@
   }
 
   @media only screen and (max-width: 750px) {
-    #Right_side {
+    body{
+     overflow-x: hidden;
+    }
+    #Right_side {      
     display: grid;
-    margin-right: 180px;
+    margin-left: 2%;
     margin-top: 20px;
     grid-template-columns: repeat(1, 1fr);
   
@@ -115,7 +118,7 @@
     display: flex;
     flex-direction: column;
    }
-  }
+  } */
 
 #Right_side > div {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -1277,3 +1280,53 @@ nav {
     }
 
 }
+
+@media only screen and (max-width: 950px) {
+    #Right_side {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    body{
+     overflow-x: hidden;
+    }
+    #Right_side {      
+    display: grid;
+    margin-left: 2%;
+    margin-top: 20px;
+    grid-template-columns: repeat(1, 1fr);
+  
+    }
+  }
+
+  
+  @media only screen and (max-width: 800px) {
+    #Main_Container{
+    display: flex;
+    flex-direction: row;
+   }
+  }
+
+  @media only screen and (max-width: 550px) {
+    #Main_Container{
+    display: flex;
+    flex-direction: column;
+   }
+  }
+
+  @media only screen and (max-width: 390px) {      
+    
+    #Right_side {      
+        display: grid;
+        margin-left: -2%;
+      
+        }
+        #Pegination{
+            padding: 0px 27%;
+        }
+       
+        
+    } 

@@ -49,7 +49,7 @@ function displayUserAddress(data){
     remove.addEventListener("click",async function(){
         try{
           await fetch(`https://ill-jade-chiton.cyclic.cloud/Address/${elem.id}`,{
-            method : "DELETE",
+            method : "DELETE"
           });
         }
         catch(err){

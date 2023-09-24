@@ -93,10 +93,11 @@ body{
     margin-left: 20px;
     align-items: center;
     padding: 5px 10px;
+    padding: 5px 0px
 }
 
 #PD_Right div i{
-    font-size: 30px;
+    font-size: 30%;
 }
 
 #PD_Right>div img{
@@ -1092,5 +1093,123 @@ nav {
     }
 
 }
+
+
+@media only screen and (max-width: 500px) {
+    #PD_main_Container{
+        display: block;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+    #Consult{
+        padding: 7px;
+        padding-bottom: 47px;
+    }
+  }
+
+  @media only screen and (max-width: 1160px) {
+    #PD_main_Container{
+        display: block;
+    }
+    #consultDiv{
+        width: 25%;
+    }
+    #PD_Right{
+        width: 53%;  
+        margin: auto;
+        margin-bottom: 2%;
+    }
+  }
+
+  @media only screen and (max-width: 850px) {      
+#PD_Right #ATC_PD{
+        width: 79%;
+    }
+  }
+
+  @media only screen and (max-width: 773px) {      
+    #PD_Right #ATC_PD{
+            width: 79%;
+        }
+        #PD_Right{
+        padding-right: 62%;
+        }
+        
+      }
+
+      @media only screen and (max-width: 650px) {      
+       
+        #PD_top{
+          display: block;
+          }
+
+        }
+
+        @media only screen and (max-width: 620px) {      
+            #PD_Right #ATC_PD{
+                width: 80%;
+                }
+            #PD_Right{
+                padding-right: 77%;
+                }
+                
+            }
+
+            @media only screen and (max-width: 490px) {      
+                #PD_Right #ATC_PD{
+                    width: 75%;
+                    }
+                #PD_Right{
+                    padding-right: 93%;
+                    }
+                    
+                }    
+                
+                @media only screen and (max-width: 403px) {      
+                    #PD_Right #ATC_PD{
+                        width: 75%;
+                        }
+                    #PD_Right{
+                        padding-right: 100%;
+                        }
+                        
+                    }   
+
+                    @media only screen and (max-width: 390px) {      
+                        #PD_Right{
+                            padding-right: 100%;
+                            }
+                        #PD_Right div{
+                            /* margin-left: 5%; */
+                            /* padding-left: 0%; */
+                            padding: 5px 0px
+                            }
+                            
+                        }  
+
+                        @media only screen and (max-width: 385px) {      
+                            #PD_Right{
+                                padding-right: 100%;
+                                }
+                            #PD_Right div{
+                                /* margin-left: 5%; */
+                                /* padding-left: 0%; */
+                                padding: 5px -3px
+                                }
+                                #MRP{
+                                    display: none;
+                                }
+                                #PD_Price{
+                                   margin-right: 2%;
+                                }
+                               
+                                
+                            }  
+
 
 

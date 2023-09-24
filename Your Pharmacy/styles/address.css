@@ -948,3 +948,246 @@ nav {
 
 }
 
+
+
+@media only screen and (max-width: 1290px) {
+  #Consult{
+    padding: 7px;
+    padding-bottom: 38px;
+}
+#payment_DIV > button{
+  margin-left: 18%;
+}
+}
+
+
+@media only screen and (max-width: 1250px) {
+  #Consult{
+    padding: 7px;
+    padding-bottom: 38px;
+}
+#consultDiv{
+  margin-right: 4%;
+}
+#payment_btn{
+  margin-left: 18%;
+}
+}
+
+@media only screen and (max-width: 1210px) {
+  #main_addressContainer{
+    display: block;
+   }
+   #payment_DIV{
+    width: 77%;
+    margin-top: 7%;
+    margin-bottom: 3%;
+   }
+  #payment_DIV > button{
+    margin-left: 35%;
+  }
+  #add_newAddress{
+    margin-top: 4%;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  #Consult{
+    padding: 7px;
+    padding-bottom: 38px;
+}
+#consultDiv{
+  margin-right: 8%;
+}
+#payment_btn{
+  margin-left: 18%;
+}
+}
+
+@media only screen and (max-width: 850px) {
+   #main_addressContainer{
+    display: block;
+   }
+   #payment_DIV{
+    width: 77%;
+    margin-top: 7%;
+    margin-bottom: 3%;
+   }
+  #payment_DIV > button{
+    margin-left: 35%;
+  }
+  #add_newAddress{
+    margin-top: 4%;
+  }
+
+}
+
+@media only screen and (max-width: 735px) {
+  #add_newAddress {
+    width: 29%;
+  }
+
+}
+
+@media only screen and (max-width: 730px) {
+  #add_newAddress {
+    width: 28%;
+  }
+
+}
+
+@media only screen and (max-width: 720px) {
+  #add_newAddress {
+    width: 27%;
+  }
+
+}
+@media only screen and (max-width: 710px) {
+  #add_newAddress {
+    width: 26%;
+  }
+
+}
+@media only screen and (max-width: 700px) {
+  #add_newAddress {
+    width: 25%;
+  }
+
+}
+@media only screen and (max-width: 690px) {
+  #add_newAddress {
+    width: 24%;
+  }
+
+}
+@media only screen and (max-width: 680px) {
+  #add_newAddress {
+    width: 23%;
+  }
+
+}
+@media only screen and (max-width: 670px) {
+  #add_newAddress {
+    width: 22%;
+  }
+
+}
+
+@media only screen and (max-width: 660px) {
+  #add_newAddress {
+    width: 21%;
+  }
+
+}
+@media only screen and (max-width: 655px) {
+  #add_newAddress {
+    width: 20%;
+  }
+
+}
+@media only screen and (max-width: 650px) {
+  #add_newAddress {
+    width: 19%;
+  }
+
+}
+@media only screen and (max-width: 640px) {
+  #add_newAddress {
+    width: 18%;
+  }
+
+}
+
+@media only screen and (max-width: 630px) {
+  #add_newAddress {
+    width: 22%;
+    margin: auto;
+    padding: 2%;
+
+  }
+
+}
+
+@media only screen and (max-width: 610px) {
+  #add_newAddress {
+    width: 38%;
+    margin: auto;
+    padding: 2%;
+  }
+
+} 
+
+@media only screen and (max-width: 580px) {
+  #payment_DIV > button{
+    margin-left: 28%;
+  }
+   
+  #payment_DIV{
+    margin-left: 3%;
+  }
+
+} 
+
+@media only screen and (max-width: 510px) {   
+  #payment_DIV{
+    margin-left: 2%;
+  }
+  #payment_DIV > button{
+    margin-left: 25%;
+  }
+
+} 
+
+@media only screen and (max-width: 450px) {   
+  #add_newAddress{
+    width: 41%;
+    margin: auto;
+    padding: 3%;
+  }
+} 
+
+@media only screen and (max-width: 440px) {   
+  #delv_add {
+    font-size: 39px;
+  }
+} 
+
+@media only screen and (max-width: 430px) {   
+  #delv_add {
+    font-size: 38px;
+  }
+  #payment_DIV > button{
+    margin-left: 22%;
+  }
+  #payment_DIV{
+    margin-left: 0%;
+  }
+
+} 
+
+@media only screen and (max-width: 420px) {   
+  #delv_add{
+    font-size: 30px;
+  }
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

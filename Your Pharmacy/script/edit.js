@@ -74,7 +74,7 @@ changeBtn.addEventListener("click",async function(){
        method:"PATCH",
        body: JSON.stringify(new_obj),
        headers:{
-           "Content-Type" : "application/json"
+           "Content-Type" : "application/json",
        }
       });
 
