@@ -6,6 +6,11 @@
     margin-top: 90px;
 }
 
+body{
+    margin-left: -1%;
+  }
+  
+
 #payment_DIV{
     /* border: 2px solid black; */
     width: 100%;
@@ -29,7 +34,7 @@
   font-size: 18px;
 }
 
-#payment_DIV > button{
+/* #payment_DIV > button{
   border: none;
   background-color: #4CAF50;
   border-radius: 6px;
@@ -43,7 +48,7 @@
 
 #payment_DIV > button:hover{
   background-color: #72e475;
-}
+} */
 
 #tp_div2 > h3{
   margin-top: 16px;
@@ -63,7 +68,7 @@
     border: none;
     background-color: #4CAF50;
     border-radius: 6px;
-    margin-left: 130px;
+    margin-left: 90px;
     padding: 13px 58px 13px 53px;
     color: white;
     cursor: pointer;
@@ -250,8 +255,7 @@ nav {
 }
 
 #Consult {
-    width: 150px;
-    height: 40px;
+    width: fit-content;
     /* border-radius: 8px; */
     padding: 10px;
     border: none;
@@ -953,3 +957,109 @@ nav {
     }
 
 }
+
+
+@media only screen and (max-width: 1290px) {
+  #payment_DIV > button{
+    margin-left: 18%;
+  }
+  body{
+    margin-left: -1%;
+  }
+  }
+  
+  
+  @media only screen and (max-width: 1250px) {
+  
+  #consultDiv{
+    margin-right: 4%;
+  }
+  #payment_btn{
+    margin-left: 18%;
+  }
+  }
+
+  @media only screen and (max-width: 1210px) {
+    #MAIN_DIV{
+      display: block;
+     }
+     #payment_DIV{
+      width: 77%;
+      margin-top: 7%;
+      margin-bottom: 3%;
+     }
+    #payment_DIV > button{
+        margin-left: 40%;
+    }
+    #add_newAddress{
+      margin-top: 4%;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    
+     #payment_DIV{
+      width: 77%;
+      margin-top: 7%;
+      margin-bottom: 3%;
+      margin-left: 7%;
+     }
+    
+  }
+
+  @media only screen and (max-width: 768px) {
+    #payment_DIV > button{
+        margin-left: 36%;
+    }
+    
+   
+ }
+
+  @media only screen and (max-width: 740px) {
+    
+    #payment_DIV > button{
+        margin-left: 36%;
+    }
+   
+ }
+
+ @media only screen and (max-width: 600px) {
+    
+    #payment_DIV{
+        width: 77%;
+        margin-top: 7%;
+        margin-bottom: 3%;
+        margin-left: 4%;
+       }
+    #payment_DIV > button{
+        margin-left: 30%;
+    }
+   
+ }
+
+ @media only screen and (max-width: 450px) {
+    
+    #payment_DIV > button{
+        margin-left: 22%;
+    }
+   
+ }
+
+ @media only screen and (max-width: 360px) {
+    
+    #payment_DIV{
+        width: 77%;
+        margin-top: 7%;
+        margin-bottom: 3%;
+        margin-left: 2%;
+       }
+    #payment_DIV > button{
+        margin-left: 13%;
+    }
+   
+ }
+
+
+
+
+  

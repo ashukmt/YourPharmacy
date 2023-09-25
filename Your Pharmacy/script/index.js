@@ -126,3 +126,13 @@ if(user){
 }else{
   document.getElementById('login').textContent="Login";
 }
+
+let logOut = document.getElementById("Consult");
+
+logOut.addEventListener("click",()=>{
+    localStorage.removeItem("username");
+    user.splice(index,0);
+    localStorage.setItem("username",JSON.stringify(user))
+    window.location.href="index.html";
+})
+

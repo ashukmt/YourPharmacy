@@ -49,7 +49,7 @@ const addPost = async ()=>{
         locality : locality    
     }
 
-   let response = await fetch("https://ill-jade-chiton.cyclic.cloud/Address",{
+   let response = await fetch("https://backend-qzn9.onrender.com/Address",{
     method:"POST",
     body: JSON.stringify(address_Obj),
     headers:{

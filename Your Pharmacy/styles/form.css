@@ -12,6 +12,9 @@ margin-right: 40px;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+body{
+  margin-left: -1%;
+}
 
 
 
@@ -86,7 +89,7 @@ label{
      /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 #payment_DIV>img{
-  width: 600px;
+  width: 923%;
 }
 /* #tp_div{
   display: flex;
@@ -972,5 +975,176 @@ font-size: 25px;
   }
 
 }
+
+
+/* my media queries */
+
+
+@media only screen and (max-width: 1285px) {
+ 
+  body{
+    margin-left: -1%;
+  }
+  }
+  
+  
+  @media only screen and (max-width: 1210px) {
+    #Consult{
+      margin-left: -10%;   
+  }
+  body{
+    overflow-x: hidden;
+  }
+  }
+  
+   @media only screen and (max-width: 1095px) {
+    #Consult{
+      margin-left: -15%;   
+  }
+  #main_containerDIV{
+    display: grid;
+    grid-template-columns: 54% 25%;
+    width: 70%;
+    margin: auto;
+    margin-top: 90px;
+  }
+  
+  
+  } 
+  
+  
+  @media only screen and (max-width: 980px){
+  #main_containerDIV {
+      display: grid;
+      grid-template-columns: 45% 25%;
+      width: 87%;
+      margin: auto;
+      margin-top: 90px;
+  }
+  #address_mainDIV{
+    width: 107%;
+  }
+       
+  }
+  
+  @media only screen and (max-width: 850px){
+    #main_containerDIV {
+        display: grid;
+        grid-template-columns: 40% 25%;
+        width: 87%;
+        margin: auto;
+        margin-top: 90px;
+    }
+    #address_mainDIV{
+      width: 109%;
+    }
+         
+    }
+  
+  
+    @media only screen and (max-width: 810px){
+      #address_form {
+        padding: 34px;
+    }
+           
+      }
+  
+      @media only screen and (max-width: 770px){
+        #payment_DIV>img{
+          display: none;
+        }
+        #main_containerDIV {
+          display: grid;
+          grid-template-columns: 101% 25%;
+          width: 70%;
+          margin: auto;
+          margin-top: 90px;
+      }
+             
+        }
+  
+        @media only screen and (max-width: 460px){
+          #payment_DIV>img{
+            display: none;
+          }
+          #main_containerDIV {
+            display: grid;
+            grid-template-columns: 108% 25%;
+            width: 74%;
+            margin: auto;
+            margin-top: 90px;
+        }
+               
+          }
+  
+          @media only screen and (max-width: 410px){
+            #payment_DIV>img{
+              display: none;
+            }
+            #main_containerDIV {
+              display: grid;
+              grid-template-columns: 113% 25%;
+              width: 77%;
+              margin: auto;
+              margin-top: 90px;
+          }
+                 
+            }
+  
+            @media only screen and (max-width: 375px){
+              #payment_DIV>img{
+                display: none;
+              }
+              #main_containerDIV {
+                display: grid;
+                grid-template-columns: 113% 25%;
+                width: 78%;
+                margin: auto;
+                margin-top: 90px;
+            }
+                   
+              }
+  
+              @media only screen and (max-width: 370px){
+                #payment_DIV>img{
+                  display: none;
+                }
+                #main_containerDIV {
+                  display: grid;
+                  grid-template-columns: 113% 25%;
+                  width: 79%;
+                  margin: auto;
+                  margin-top: 90px;
+              }
+                     
+                }
+  
+                @media only screen and (max-width: 365px){
+                  #payment_DIV>img{
+                    display: none;
+                  }
+                  #main_containerDIV {
+                    display: grid;
+                    grid-template-columns: 113% 25%;
+                    width: 80%;
+                    margin: auto;
+                    margin-top: 90px;
+                }
+                       
+                  }
+  
+                  @media only screen and (max-width: 360px){
+                    #payment_DIV>img{
+                      display: none;
+                    }
+                    #main_containerDIV {
+                      display: grid;
+                      grid-template-columns: 113% 25%;
+                      width: 81%;
+                      margin: auto;
+                      margin-top: 90px;
+                  }
+                         
+                    }
 
 

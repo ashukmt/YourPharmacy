@@ -41,11 +41,12 @@ let navbar=()=>{
             <a href="signin.html">
                 <p ><ion-icon name="person-circle-outline"></ion-icon><span id="login"> Login </span></p>
             </a>
-            <button id="Consult">Consult Now</button>
+            <button id="Consult">Logout</button>
         </div>
 
     </nav>
 </header>
+
 <section>
     <div id="menunavbar">
         <p id="close"><ion-icon name="close-circle-outline"></ion-icon>
@@ -66,10 +67,21 @@ let navbar=()=>{
             <a href="signin.html">
                 <p><ion-icon name="person-circle-outline"></ion-icon> Login</p>
             </a>
-            <button>Consult Now</button>
+            <button id="log_out">Logout</button>
         </div>
     </div>
 </section>`
 }
 
+
+
 export default navbar;
+
+
+// let user=JSON.parse(localStorage.getItem("username"));
+
+// let logOut = document.getElementById("Consult");
+
+// logOut.addEventListener("click",()=>{
+//     localStorage.removeItem("username");
+// })

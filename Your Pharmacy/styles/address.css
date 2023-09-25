@@ -10,6 +10,9 @@
     margin-top: 90px;
 }
 
+body{
+  margin-left: -1%;
+}
 
 #payment_DIV{
     /* border: 2px solid black; */
@@ -37,7 +40,7 @@
   border: none;
   background-color: #4CAF50;
   border-radius: 6px;
-  margin-left: 130px;
+  margin-left: 90px;
   padding: 13px 58px 13px 53px;
   color: white;
   cursor: pointer;
@@ -246,8 +249,8 @@ nav {
 }
 
 #Consult {
-  width: 150px;
-  height: 40px;
+  width: fit-content;
+  /* height: 40px; */
   /* border-radius: 8px; */
   padding: 10px;
   border: none;
@@ -951,21 +954,24 @@ nav {
 
 
 @media only screen and (max-width: 1290px) {
-  #Consult{
+  /* #Consult{
     padding: 7px;
     padding-bottom: 38px;
-}
+} */
 #payment_DIV > button{
   margin-left: 18%;
+}
+body{
+  margin-left: -1%;
 }
 }
 
 
 @media only screen and (max-width: 1250px) {
-  #Consult{
+  /* #Consult{
     padding: 7px;
     padding-bottom: 38px;
-}
+} */
 #consultDiv{
   margin-right: 4%;
 }
@@ -992,10 +998,10 @@ nav {
 }
 
 @media only screen and (max-width: 1050px) {
-  #Consult{
+  /* #Consult{
     padding: 7px;
     padding-bottom: 38px;
-}
+} */
 #consultDiv{
   margin-right: 8%;
 }
@@ -1168,11 +1174,14 @@ nav {
 @media only screen and (max-width: 420px) {   
   #delv_add{
     font-size: 30px;
-  }
-  
-  
+  }  
 }
 
+@media only screen and (max-width: 360px) {   
+  #payment_DIV > button{
+    margin-left: 10%;
+  } 
+}
 
 
 

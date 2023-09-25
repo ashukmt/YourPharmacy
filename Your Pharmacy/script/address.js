@@ -9,7 +9,7 @@ Over_V_Foot.innerHTML=footer()
 
 const userData = async function(){
     try{
-    let res = await fetch("https://ill-jade-chiton.cyclic.cloud/Address");
+    let res = await fetch("https://backend-qzn9.onrender.com/Address");
     let data = await res.json();
     displayUserAddress(data);
     }
@@ -48,9 +48,10 @@ function displayUserAddress(data){
     remove.style = "margin-right: 23px;"
     remove.addEventListener("click",async function(){
         try{
-          await fetch(`https://ill-jade-chiton.cyclic.cloud/Address/${elem.id}`,{
+          await fetch(`https://backend-qzn9.onrender.com/Address/${elem.id}`,{
             method : "DELETE"
           });
+          window.location.href = "address.html";
         }
         catch(err){
             console.log(err);
