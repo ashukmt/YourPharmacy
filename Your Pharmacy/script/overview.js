@@ -121,12 +121,14 @@ var options = {
        // // alert(response.razorpay_payment_id);
       //  // alert(response.razorpay_order_id);
        // // alert(response.razorpay_signature);
+       window.location.href = "Product.html";
     }
 };
 var rzp1 = new Razorpay(options);
 document.getElementById('payment_btn').onclick = function(e){
     rzp1.open();
     e.preventDefault();
+    
 }
 
 let user=JSON.parse(localStorage.getItem("username"));
