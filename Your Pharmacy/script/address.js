@@ -120,13 +120,13 @@ displayPrices(myPrice);
 function displayPrices(data){
     data.forEach(function(elem){
         let Tprice = document.getElementById("myID1");
-        Tprice.innerText = elem.price;
+        Tprice.innerText = elem.price+150;
 
         let TAPrice = document.getElementById("myID3");
         if(0<elem.dis_price){
-            TAPrice.innerText = elem.dis_price;
+            TAPrice.innerText = elem.dis_price+150;
         }else{
-            TAPrice.innerText = elem.price;
+            TAPrice.innerText = elem.price+150;
         }
         
         let DisPrice = document.getElementById("myID2");
