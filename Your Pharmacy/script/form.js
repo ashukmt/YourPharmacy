@@ -49,7 +49,7 @@ const addPost = async ()=>{
         locality : locality    
     }
 
-   let response = await fetch("https://backend-qzn9.onrender.com/Address",{
+   let response = await fetch("https://ashutosh-5xtk.onrender.com/Address",{
     method:"POST",
     body: JSON.stringify(address_Obj),
     headers:{

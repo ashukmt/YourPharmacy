@@ -12,7 +12,7 @@ let user_addressID = localStorage.getItem("addressID");
 
 const userData = async function(){
     try{
-       let res = await fetch(`https://backend-qzn9.onrender.com/Address/${user_addressID}`);
+       let res = await fetch(`https://ashutosh-5xtk.onrender.com/Address/${user_addressID}`);
        let data = await res.json();
 
        let {firstName,lastName,number,pincode,address,city,state,locality} = data;
@@ -70,7 +70,7 @@ changeBtn.addEventListener("click",async function(){
            locality : locality    
        }
    
-      await fetch(`https://backend-qzn9.onrender.com/Address/${user_addressID}`,{
+      await fetch(`https://ashutosh-5xtk.onrender.com/Address/${user_addressID}`,{
        method:"PATCH",
        body: JSON.stringify(new_obj),
        headers:{

@@ -9,7 +9,7 @@ Over_V_Foot.innerHTML=footer()
 
 const userData = async function(){
     try{
-    let res = await fetch("https://backend-qzn9.onrender.com/Address");
+    let res = await fetch("https://ashutosh-5xtk.onrender.com/Address");
     let data = await res.json();
     displayUserAddress(data);
     }
@@ -48,7 +48,7 @@ function displayUserAddress(data){
     remove.style = "margin-right: 23px;"
     remove.addEventListener("click",async function(){
         try{
-          await fetch(`https://backend-qzn9.onrender.com/Address/${elem.id}`,{
+          await fetch(`https://ashutosh-5xtk.onrender.com/Address/${elem.id}`,{
             method : "DELETE"
           });
           window.location.href = "address.html";
